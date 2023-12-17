@@ -29,3 +29,6 @@ img {
   width: 1000px;
   animation: anima 3s infinite;
 }
+h1 {
+  color:red;
+}
