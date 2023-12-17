@@ -21,6 +21,10 @@ div:hover {
 #red {
   color:red;
 }
+@keyframes anima {
+  from {filter: invert(100%);}
+  to {filter: invert(0%);}
+}
 img {
   width: 1000px;
   filter: invert(90%);
