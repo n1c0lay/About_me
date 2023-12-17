@@ -27,5 +27,5 @@ div:hover {
 }
 img {
   width: 1000px;
-  filter: invert(90%);
+  animation: anima 3s infinite;
 }
