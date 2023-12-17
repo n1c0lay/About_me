@@ -18,3 +18,10 @@ div:hover {
   75% {background-color: yellow;}
   100% {background-color: white;}
 }
+#red {
+  color:red;
+}
+img {
+  width: 100%;
+  filter: invert(90%);
+}
