@@ -1,1 +1,16 @@
-
+div {
+  font-size: 22px;
+}
+div:hover {
+  animation: ani 3s infinite;
+}
+@keyframes ani {
+  0% {font-size: 22px;}
+  25% {font-size: 32px;}
+  75% {font-size: 32px;}
+  100% {font-size: 22px;}
+  0% {background-color: white;}
+  25% {background-color: yellow;}
+  75% {background-color: yellow;}
+  100% {background-color: white;}
+}
