@@ -2,12 +2,12 @@ div {
   font-size: 22px;
 }
 div:hover {
-  animation: ani 3s infinite;
+  animation: ani 6s infinite;
 }
 @keyframes ani {
   0% {font-size: 22px;}
-  25% {font-size: 32px;}
-  60% {font-size: 32px;}
+  20% {font-size: 32px;}
+  80% {font-size: 32px;}
   100% {font-size: 22px;}
   0% {background-color: white;}
   25% {background-color: yellow;}
